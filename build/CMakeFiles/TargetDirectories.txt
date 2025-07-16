@@ -1,0 +1,3 @@
+/Users/michael/3D Renderer/build/CMakeFiles/Renderer.dir
+/Users/michael/3D Renderer/build/CMakeFiles/edit_cache.dir
+/Users/michael/3D Renderer/build/CMakeFiles/rebuild_cache.dir
