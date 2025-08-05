@@ -153,78 +153,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/renderedObj.o: src/renderedObj.cpp.o
-.PHONY : src/renderedObj.o
-
-# target to build an object file
-src/renderedObj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/renderedObj.cpp.o
-.PHONY : src/renderedObj.cpp.o
-
-src/renderedObj.i: src/renderedObj.cpp.i
-.PHONY : src/renderedObj.i
-
-# target to preprocess a source file
-src/renderedObj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/renderedObj.cpp.i
-.PHONY : src/renderedObj.cpp.i
-
-src/renderedObj.s: src/renderedObj.cpp.s
-.PHONY : src/renderedObj.s
-
-# target to generate assembly for a file
-src/renderedObj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/renderedObj.cpp.s
-.PHONY : src/renderedObj.cpp.s
-
-src/triangle.o: src/triangle.cpp.o
-.PHONY : src/triangle.o
-
-# target to build an object file
-src/triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/triangle.cpp.o
-.PHONY : src/triangle.cpp.o
-
-src/triangle.i: src/triangle.cpp.i
-.PHONY : src/triangle.i
-
-# target to preprocess a source file
-src/triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/triangle.cpp.i
-.PHONY : src/triangle.cpp.i
-
-src/triangle.s: src/triangle.cpp.s
-.PHONY : src/triangle.s
-
-# target to generate assembly for a file
-src/triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/triangle.cpp.s
-.PHONY : src/triangle.cpp.s
-
-src/vec3.o: src/vec3.cpp.o
-.PHONY : src/vec3.o
-
-# target to build an object file
-src/vec3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/vec3.cpp.o
-.PHONY : src/vec3.cpp.o
-
-src/vec3.i: src/vec3.cpp.i
-.PHONY : src/vec3.i
-
-# target to preprocess a source file
-src/vec3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/vec3.cpp.i
-.PHONY : src/vec3.cpp.i
-
-src/vec3.s: src/vec3.cpp.s
-.PHONY : src/vec3.s
-
-# target to generate assembly for a file
-src/vec3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/vec3.cpp.s
-.PHONY : src/vec3.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -237,15 +165,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/renderedObj.o"
-	@echo "... src/renderedObj.i"
-	@echo "... src/renderedObj.s"
-	@echo "... src/triangle.o"
-	@echo "... src/triangle.i"
-	@echo "... src/triangle.s"
-	@echo "... src/vec3.o"
-	@echo "... src/vec3.i"
-	@echo "... src/vec3.s"
 .PHONY : help
 
 

@@ -871,5 +871,4 @@ CMakeFiles/Renderer.dir/main.cpp.o: /Users/michael/3D\ Renderer/main.cpp \
   /opt/homebrew/Cellar/sdl2/2.32.8/include/SDL2/SDL_timer.h \
   /opt/homebrew/Cellar/sdl2/2.32.8/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/sdl2/2.32.8/include/SDL2/SDL_locale.h \
-  /opt/homebrew/Cellar/sdl2/2.32.8/include/SDL2/SDL_misc.h \
-  /Users/michael/3D\ Renderer/include/vec3.hpp
+  /opt/homebrew/Cellar/sdl2/2.32.8/include/SDL2/SDL_misc.h

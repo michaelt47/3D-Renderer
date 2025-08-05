@@ -86,66 +86,18 @@ CMakeFiles/Renderer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/michael/3D Renderer/main.cpp" -o CMakeFiles/Renderer.dir/main.cpp.s
 
-CMakeFiles/Renderer.dir/src/vec3.cpp.o: CMakeFiles/Renderer.dir/flags.make
-CMakeFiles/Renderer.dir/src/vec3.cpp.o: /Users/michael/3D\ Renderer/src/vec3.cpp
-CMakeFiles/Renderer.dir/src/vec3.cpp.o: CMakeFiles/Renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michael/3D Renderer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Renderer.dir/src/vec3.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/vec3.cpp.o -MF CMakeFiles/Renderer.dir/src/vec3.cpp.o.d -o CMakeFiles/Renderer.dir/src/vec3.cpp.o -c "/Users/michael/3D Renderer/src/vec3.cpp"
-
-CMakeFiles/Renderer.dir/src/vec3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/src/vec3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/michael/3D Renderer/src/vec3.cpp" > CMakeFiles/Renderer.dir/src/vec3.cpp.i
-
-CMakeFiles/Renderer.dir/src/vec3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/src/vec3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/michael/3D Renderer/src/vec3.cpp" -o CMakeFiles/Renderer.dir/src/vec3.cpp.s
-
-CMakeFiles/Renderer.dir/src/triangle.cpp.o: CMakeFiles/Renderer.dir/flags.make
-CMakeFiles/Renderer.dir/src/triangle.cpp.o: /Users/michael/3D\ Renderer/src/triangle.cpp
-CMakeFiles/Renderer.dir/src/triangle.cpp.o: CMakeFiles/Renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michael/3D Renderer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Renderer.dir/src/triangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/triangle.cpp.o -MF CMakeFiles/Renderer.dir/src/triangle.cpp.o.d -o CMakeFiles/Renderer.dir/src/triangle.cpp.o -c "/Users/michael/3D Renderer/src/triangle.cpp"
-
-CMakeFiles/Renderer.dir/src/triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/src/triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/michael/3D Renderer/src/triangle.cpp" > CMakeFiles/Renderer.dir/src/triangle.cpp.i
-
-CMakeFiles/Renderer.dir/src/triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/src/triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/michael/3D Renderer/src/triangle.cpp" -o CMakeFiles/Renderer.dir/src/triangle.cpp.s
-
-CMakeFiles/Renderer.dir/src/renderedObj.cpp.o: CMakeFiles/Renderer.dir/flags.make
-CMakeFiles/Renderer.dir/src/renderedObj.cpp.o: /Users/michael/3D\ Renderer/src/renderedObj.cpp
-CMakeFiles/Renderer.dir/src/renderedObj.cpp.o: CMakeFiles/Renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/michael/3D Renderer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Renderer.dir/src/renderedObj.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/renderedObj.cpp.o -MF CMakeFiles/Renderer.dir/src/renderedObj.cpp.o.d -o CMakeFiles/Renderer.dir/src/renderedObj.cpp.o -c "/Users/michael/3D Renderer/src/renderedObj.cpp"
-
-CMakeFiles/Renderer.dir/src/renderedObj.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/src/renderedObj.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/michael/3D Renderer/src/renderedObj.cpp" > CMakeFiles/Renderer.dir/src/renderedObj.cpp.i
-
-CMakeFiles/Renderer.dir/src/renderedObj.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/src/renderedObj.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/michael/3D Renderer/src/renderedObj.cpp" -o CMakeFiles/Renderer.dir/src/renderedObj.cpp.s
-
 # Object files for target Renderer
 Renderer_OBJECTS = \
-"CMakeFiles/Renderer.dir/main.cpp.o" \
-"CMakeFiles/Renderer.dir/src/vec3.cpp.o" \
-"CMakeFiles/Renderer.dir/src/triangle.cpp.o" \
-"CMakeFiles/Renderer.dir/src/renderedObj.cpp.o"
+"CMakeFiles/Renderer.dir/main.cpp.o"
 
 # External object files for target Renderer
 Renderer_EXTERNAL_OBJECTS =
 
 Renderer: CMakeFiles/Renderer.dir/main.cpp.o
-Renderer: CMakeFiles/Renderer.dir/src/vec3.cpp.o
-Renderer: CMakeFiles/Renderer.dir/src/triangle.cpp.o
-Renderer: CMakeFiles/Renderer.dir/src/renderedObj.cpp.o
 Renderer: CMakeFiles/Renderer.dir/build.make
 Renderer: /opt/homebrew/Cellar/sdl2/2.32.8/lib/libSDL2.dylib
 Renderer: CMakeFiles/Renderer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/michael/3D Renderer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Renderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/michael/3D Renderer/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Renderer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Renderer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

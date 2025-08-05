@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.32.8/include -I"/Users/michael/3D Renderer/include" -isystem /opt/homebrew/Cellar/sdl2/2.32.8/include/SDL2
+CXX_INCLUDES = -I/opt/homebrew/Cellar/sdl2/2.32.8/include -isystem /opt/homebrew/Cellar/sdl2/2.32.8/include/SDL2
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 
