@@ -59,6 +59,7 @@
   "files.associations": {
     "*.embeddedhtml": "html",
     "iostream": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "future": "cpp"
   }
 }
